@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Controller;
+
+use Symfony\Component\HttpFoundation\Response;
+
+class DefaultController
+{
+
+    public function index()
+    {
+        $number = random_int(0, 10);
+
+        return new Response(
+            '<html><body>Lucky number: '.$number.'</body></html>'
+        );
+    }
+}

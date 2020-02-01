@@ -1,5 +1,10 @@
 <?php
 
+//phpinfo();
+//ini_set("log_errors", 1);
+//ini_set("error_log", "./php-error.log");
+//error_log( "Hello, errors!" );
+
 use App\Kernel;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Request;
