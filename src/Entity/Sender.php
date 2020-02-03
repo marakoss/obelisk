@@ -42,7 +42,7 @@ class Sender
 	 */
 	public function getPublicUrl()
 	{
-		return getenv('PUBLIC_URL') . getenv('IMAGES_DIRECTORY') . '/' . $this->photo;
+		return getenv('PUBLIC_URL') . getenv('IMAGES_PUBLIC_URL') . '/' . $this->photo;
 	}
 
 	/**
