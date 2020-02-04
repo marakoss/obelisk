@@ -74,11 +74,11 @@ class DefaultController
 	<label for="name">Aktuální souřadnice</label>
 	<div class="row">
 		<div class="col-md-6">
-			<input type="number" class="form-control" id="lat" aria-describedby="gpsHelp" placeholder="Šířka (Lattitude)" />
+			<input type="text" class="form-control" id="lat" aria-describedby="gpsHelp" placeholder="Šířka (Lattitude)" />
 			<br />
 		</div>
 		<div class="col-md-6">
-			<input type="number" class="form-control" id="lon" aria-describedby="gpsHelp" placeholder="Délka (Longitude)" />
+			<input type="text" class="form-control" id="lon" aria-describedby="gpsHelp" placeholder="Délka (Longitude)" />
 			<br />
 		</div>
 		<small id="nameHelp" class="form-text text-muted">Pokusíme se je zjistit, ale je možné, že zadání nebude přesné. Opravte je dle libosti</small>
