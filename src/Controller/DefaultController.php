@@ -66,7 +66,7 @@ class DefaultController
 
 <div class="form-group">
 	<label for="name">Vaše jméno</label>
-	<input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Vaše celé jméno" />
+	<input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" placeholder="Vaše celé jméno" />
 	<small id="nameHelp" class="form-text text-muted">Jméno bude použito u příspěvku na facebookové stránce <a href="https://facebook.com/groups/motoprerov/">@motoprerov</a></small>
 </div>
 
@@ -74,11 +74,11 @@ class DefaultController
 	<label for="name">Aktuální souřadnice</label>
 	<div class="row">
 		<div class="col-md-6">
-			<input type="text" class="form-control" id="lat" aria-describedby="gpsHelp" placeholder="Šířka (Lattitude)" />
+			<input type="text" class="form-control" id="lat" name="lat" aria-describedby="gpsHelp" placeholder="Šířka (Lattitude)" />
 			<br />
 		</div>
 		<div class="col-md-6">
-			<input type="text" class="form-control" id="lon" aria-describedby="gpsHelp" placeholder="Délka (Longitude)" />
+			<input type="text" class="form-control" id="lon" name="lon" aria-describedby="gpsHelp" placeholder="Délka (Longitude)" />
 			<br />
 		</div>
 		<small id="nameHelp" class="form-text text-muted">Pokusíme se je zjistit, ale je možné, že zadání nebude přesné. Opravte je dle libosti</small>
