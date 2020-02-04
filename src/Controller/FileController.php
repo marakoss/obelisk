@@ -15,7 +15,7 @@ class FileController extends Controller
 	public function index(Request $request, WebHook $webHook, FileUploader $uploader)
 	{
 
-		$photo = $uploader->upload($request->files->get('photo'));
+		$photo = $uploader->upload($request->files->get('image'));
 
 		$sender = new Sender();
 		$sender->setPhoto($photo);
