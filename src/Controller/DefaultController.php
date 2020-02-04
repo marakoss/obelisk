@@ -48,7 +48,7 @@ class DefaultController
 			</label>
 		</div>
 		<div class="col-xs-6">
-			<input type="file" id="file" name="image" class="inputfile" accept="image/*;capture=camera" capture="user" />
+			<input type="file" id="file" name="image" class="inputfile" accept="image/*;" />
 			<label for="file">
 				<figure>
 					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
